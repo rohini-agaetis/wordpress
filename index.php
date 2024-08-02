@@ -30,9 +30,7 @@
                 if ($first_post) {
         ?>
                     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                        <?php if (has_post_thumbnail()) : ?>
-
-                        <?php endif; ?>
+                        
                         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
                     </article>
@@ -41,9 +39,7 @@
                 } else {
                 ?>
                     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                        <?php if (has_post_thumbnail()) : ?>
-
-                        <?php endif; ?>
+                        
                         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
                     </article>
