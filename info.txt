@@ -1,9 +1,0 @@
- <div class="post-excerpt">
-                            <?php the_excerpt(); ?>
-                        </div>
-
-
-
- <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
- </article>
